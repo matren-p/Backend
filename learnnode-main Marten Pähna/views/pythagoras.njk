@@ -1,0 +1,13 @@
+{% extends 'partials/layout.njk' %}
+{% block content %}
+    <h1>Pythagoras</h1>
+    <form action="/pythagorasanswer">
+        <label>
+            a:
+            <input type="number" name="a" placeholder="a">
+            b:
+            <input type="number" name="b" placeholder="b">
+        </label>    
+        <button>Submit</button>
+    </form>
+{% endblock %}

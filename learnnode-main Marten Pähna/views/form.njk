@@ -1,0 +1,10 @@
+{% extends 'partials/layout.njk' %}
+{% block content %}
+    <h1>Form</h1>
+    <form action="/answer">
+        <input name="name">
+        <input name="age">
+        <input name="color">
+        <button>Submit</button>
+    </form>
+{% endblock %}

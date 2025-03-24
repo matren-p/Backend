@@ -1,0 +1,11 @@
+{% extends 'partials/layout.njk' %}
+{% block content %}
+    <h1>Square</h1>
+    <form action="/squareanswer">
+        <label for="a">
+            a:
+            <input type="number" name="a" placeholder="a">
+        </label>    
+        <button>Submit</button>
+    </form>
+{% endblock %}
